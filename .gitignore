@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+data/*.txt
+data/*.bin
+data/*.json
+checkpoints/*
+!checkpoints/*.pt
+!checkpoints/*.onnx.data
+!checkpoints/*/
+!checkpoints/*/*.safetensors
+gguf-export/
+llama.cpp/
+.DS_Store
